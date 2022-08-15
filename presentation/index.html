@@ -1,0 +1,214 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		<link rel="preconnect" href="https://fonts.googleapis.com"> 
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+		<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+
+		<title>reveal.js</title>
+
+		<link rel="stylesheet" href="dist/reset.css">
+		<link rel="stylesheet" href="dist/reveal.css">
+		<link rel="stylesheet" href="dist/theme/black.css">
+
+		<!-- Theme used for syntax highlighted code -->
+		<link rel="stylesheet" href="plugin/highlight/monokai.css">
+		<style>
+			:root {
+	--r-main-font: 'Roboto', sans-serif;
+  	--r-background-color: #ffffff;
+  	--r-main-font-size: 28px;
+  	--r-block-margin: 30px;
+  	--r-heading-text-transform: none;
+	--r-heading-font: 'Roboto', sans-serif;
+}
+		</style>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section data-background-gradient="linear-gradient(145deg,#0d47a1,#42a5f5)">
+					<iframe style="height: 500px; width: 70%;" data-src="./assets/img/angular.svg" alt="" data-preload></iframe>
+					<aside class="notes">
+						Hello! My name is Elvira and I would like to tell you about Angular.
+					</aside>
+				</section>
+				<section>
+					<div style="width: 100%; height: 100px; display: flex; align-items: center; justify-content: center; background: #0d47a1; margin-bottom: 10vh;">
+						<h1 style="font-weight: 100;">What is Angular</h1>
+					</div>
+					<p style="color: #444444; text-align: left; font-weight: 300;" class="fragment">A component-based framework for building scalable web applications</p>
+					<p style="color: #444444; text-align: left; font-weight: 300;" class="fragment">A collection of well-integrated libraries that cover a wide variety of features, including routing, forms management, client-server communication, and more</p>
+					<p style="color: #444444; text-align: left; font-weight: 300;" class="fragment">A suite of developer tools to help you develop, build, test, and update your code</p>
+					<aside class="notes">
+						What is angular?<br>
+						A component-based framework for building scalable web applications<br>
+						A collection of well-integrated libraries that cover a wide variety of features<br>
+						A suite of developer tools to help you develop, build, test, and update your code
+					</aside>
+				</section>
+				<section>
+					<div style="width: 100%; height: 100px; display: flex; align-items: center; justify-content: center; background: #0d47a1; margin-bottom: 10vh;">
+						<h1 style="font-weight: 100;">Benefits</h1>
+					</div>						
+					<div style="display: flex; justify-content: space-between; align-items: center">
+						<div style="color: #444444; text-align: left; font-weight: 300; width: 47%;">
+							<p class="fragment">Google, Microsoft support;</p>
+							<p class="fragment">Developer Tools (CLI);</p>
+							<p class="fragment">Single project structure;</p>
+							<p class="fragment">TypeScript out of the box</p>
+						</div>
+						<div style="color: #444444; text-align: left; font-weight: 300; width: 48%;">
+							<p class="fragment">Templates based on the HTML extension;</p>
+							<p class="fragment">No needed to configure anything extra. No more wrappers;</p>
+							<p class="fragment">Big community.</p>
+						</div>
+					</div>
+					<aside class="notes">
+						What is angular's benefits?<br>
+						Google, Microsoft support;
+						Developer Tools (CLI);
+						Single project structure;
+						TypeScript out of the box (you can write strongly typed code)
+						Templates based on the HTML extension;
+						No need to configure anything extra. No more wrappers;
+						Big community.
+					</aside>
+				</section>
+				<section>
+					<section>
+						<h1 style="font-weight: 300; color: #0d47a1;">How Angular Works: <span style="font-weight: 100; color: #DD0031;">Components</span></h1>
+					</section>
+					<section>
+						<p style="color: #444444; text-align: left; font-weight: 300;">Angular apps are made up of independent elements. These elements are called components, and each component has its own behavior.</p>
+						<p style="color: #444444; text-align: left; font-weight: 300;">Components are subject to life cycles - they change and work according to several programmed scenarios. Let's take a situation where we go from a news list page to a single news item. In this case, the News Feed component is destroyed and, if necessary, re-created. Lifecycles offload memory and speed up the application.</p>
+					</section>
+					<aside class="notes">
+						How Angular Works: Components<br>
+						Angular apps are made up of independent elements. These elements are called components, and each component has its own behavior.<br>
+						For example, the news feed is one component. Responsible for displaying the news list on the page. The Read button is another component. Responsible for switching from the news list page to the selected news.<br>
+						Typically, a component is programmed to display an element on the screen and perform some action. The component can respond to a click, collapse, expand, hide, flip to another page, and so on.<br>
+						Components are subject to life cycles - they change and work according to several programmed scenarios. Let's take a situation where we go from a news list page to a single news item. In this case, the News Feed component is destroyed and, if necessary, re-created. Lifecycles offload memory and speed up the application.
+					</aside>
+				</section>
+				<section>
+					<section>
+						<h1 style="font-weight: 300; color: #0d47a1;">How Angular Works: <span style="font-weight: 100; color: #DD0031;">Modules</span></h1>
+					</section>
+					<section>
+						<p style="color: #444444; text-align: left; font-weight: 300;">All components are connected to the main or additional modules. Modules manage components.</p>
+						<p style="color: #444444; text-align: left; font-weight: 300;">The main module controls the entire application, and additional modules monitor the operation of individual elements.</p>
+					</section>
+					<aside class="notes">
+						How Angular Works: Modules<br>
+						All components are connected to the main or additional modules. Modules manage components. The main module controls the entire application, and additional modules monitor the operation of individual elements.
+						There are many additional modules. They are responsible for navigation, animation, component storage, interaction with the browser, and other actions.
+					</aside>
+				</section>
+				<section>
+					<section>
+						<h1 style="font-weight: 300; color: #0d47a1;">How Angular Works: <span style="font-weight: 100; color: #DD0031;">Services</span></h1>
+					</section>
+					<section>
+						<p style="color: #444444; text-align: left; font-weight: 300;">For complex operations, instead of components are used services.</p>
+						<p style="color: #444444; text-align: left; font-weight: 300;">They are responsible only for the set of logical operations for which it is intended.</p>
+					</section>
+					<aside class="notes">
+						How Angular Works: Services<br>
+						For complex operations, instead of components there are used services. They are responsible only for the set of logical operations for which it is intended.
+					</aside>
+				</section>
+				<section>
+					<section>
+						<h1 style="font-weight: 300; color: #0d47a1;">How Angular Works: <span style="font-weight: 100; color: #DD0031;">Directives</span></h1>
+					</section>
+					<section>
+						<p style="color: #444444; text-align: left; font-weight: 300;">Sometimes one component with the same logic is used in different parts of the application.</p>
+						<p style="color: #444444; text-align: left; font-weight: 300;">Directives simplify the process - you create one new block, and it will be responsible for the item, that you want duplicate on the site</p>
+					</section>
+					<aside class="notes">
+						How Angular Works: Directives<br>
+						Sometimes one component with the same logic is used in different parts of the application. For example, if you click on the currency switch button and select a dollar, then a dollar sign should appear next to all prices on the site.<br>
+						This icon can be obtained using components and directives. It takes a long time to put down components — if there are 1,000 positions with a price on the site, then a component with a dollar sign is needed next to all of them. Directives simplify the process - you create one new block, and it will be responsible for the dollar sign next to all prices on the site.
+					</aside>
+				</section>
+				<section>
+					<section>
+						<h1 style="font-weight: 300; color: #0d47a1;">How Angular Works: <span style="font-weight: 100; color: #DD0031;">Forms</span></h1>
+					</section>
+					<section>
+						<p style="color: #444444; text-align: left; font-weight: 300;">In Angular, for the forms, you do not need to think through the logic and spend time on development - just select blocks with suitable forms and connect them to the main module.</p>
+					</section>
+					<aside class="notes">
+						How Angular Works: Forms<br>
+						Almost any application has forms with fields and buttons - send, save, leave a phone number, and so on. In Angular, for these forms, you do not need to think through the logic and spend time on development - just select blocks with suitable forms and connect them to the main module.
+					</aside>
+				</section>
+				<section>
+					<h1 style="font-weight: 300; color: #0d47a1;">To use the Angular framework, you should be familiar with:</h1>
+					<p style="color: #444444; text-align: left; font-weight: 300;">JavaScript;</p>
+					<p style="color: #444444; text-align: left; font-weight: 300;">HTML;</p>
+					<p style="color: #444444; text-align: left; font-weight: 300;">CSS;</p>
+					<p style="color: #444444; text-align: left; font-weight: 300;">Knowledge of TypeScript is helpful, but not required.</p>
+					<aside class="notes">
+						To use the Angular framework, you should be familiar with:<br>
+						JavaScript;
+						HTML;
+						CSS;
+						Knowledge of TypeScript is helpful, but not required.
+					</aside>
+				</section>
+				<section>
+					<h1 style="font-weight: 300; color: #0d47a1;">To install Angular on your local system, you need:</h1>
+					<p style="color: #444444; text-align: left; font-weight: 300;">Node.js</p>
+					<p style="color: #444444; text-align: left; font-weight: 300;">npm package manager</p>
+					<aside class="notes">
+						To install Angular on your local system, you need:<br>
+						Node.js and npm package manager
+					</aside>
+				</section>
+				<section>
+					<div style="width: 100%; height: 100px; display: flex; align-items: center; justify-content: center; background: #0d47a1; margin-bottom: 10vh;">
+						<h1 style="font-weight: 100;">To start</h1>
+					</div>
+					<p style="color: #444444; font-weight: 300; margin-bottom: 10px;">Here are some useful links to start work with Angular:</p>
+					<p style="color: #444444; font-weight: 300; margin-bottom: 10px;">Main site: </p><a href="https://angular.io/">https://angular.io/</a>
+					<p style="color: #444444; font-weight: 300; margin-bottom: 10px;">Helpful manual in Russian: </p><a href="https://angdev.ru">https://angdev.ru</a>
+					<p style="color: #444444; font-weight: 300; margin-bottom: 10px;">Angular on YouTube: </p><a href="https://www.youtube.com/c/Angular">https://www.youtube.com/c/Angular</a>
+					<aside class="notes">
+						Here are some useful links to start work with Angular:<br>
+						Main site, Helpful manual in Russian, Angular on YouTube
+					</aside>
+				</section>
+				<section data-background-gradient="linear-gradient(145deg,#0d47a1,#42a5f5)">
+					<h1 style="color: #ffffff;">Thank you and Good Luck!</h1>
+				</section>
+				<aside class="notes">
+					Thank you!
+				</aside>
+			</div>
+		</div>
+
+		<script src="dist/reveal.js"></script>
+		<script src="plugin/notes/notes.js"></script>
+		<script src="plugin/markdown/markdown.js"></script>
+		<script src="plugin/highlight/highlight.js"></script>
+		<script>
+			// More info about initialization & config:
+			// - https://revealjs.com/initialization/
+			// - https://revealjs.com/config/
+			Reveal.initialize({
+				// parallaxBackgroundImage: 'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg', // e.g. "https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg"
+				// parallaxBackgroundSize: '2100px 900px',
+				parallaxBackgroundHorizontal: 200,
+  				parallaxBackgroundVertical: 50,
+				hash: true,
+				
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+			});
+		</script>
+	</body>
+</html>
